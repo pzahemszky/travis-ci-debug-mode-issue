@@ -1,0 +1,11 @@
+language: python
+
+matrix:
+  include:
+    - os: linux
+      dist: xenial
+      python: "3.8"
+
+install:
+  - python -m pip install tox
+
