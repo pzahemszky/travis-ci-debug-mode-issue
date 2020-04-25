@@ -9,3 +9,6 @@ matrix:
 install:
   - python -m pip install tox
 
+script:
+  - echo "got to the script section"
+
